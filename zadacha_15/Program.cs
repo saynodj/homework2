@@ -7,13 +7,13 @@ Console.WriteLine("Задача № 15 ");
 Console.Write("Введи цифру, обозначающую день недели: ");
 int dayNumber = Convert.ToInt32(Console.ReadLine());
 
-void CheckingTheDayOfTheWeek (int dayNumber) 
+void CheckingTheDayOfTheWeek(int dayNumber)
 {
-  if (dayNumber == 6 || dayNumber == 7) 
+  if (dayNumber == 6 || dayNumber == 7)
   {
-  Console.WriteLine("(это выходной день) -> да");
+    Console.WriteLine("(это выходной день) -> да");
   }
-  else if (dayNumber < 1 || dayNumber > 7) 
+  else if (dayNumber < 1 || dayNumber > 7)
   {
     Console.WriteLine("в неделе всего 7 дней, введите цифру от 1 до 7");
   }
